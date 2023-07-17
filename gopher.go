@@ -1,4 +1,4 @@
-package dupimport
+package gopher
 
 import (
 	"go/ast"
@@ -8,11 +8,11 @@ import (
 	"golang.org/x/tools/go/ast/inspector"
 )
 
-const doc = "dupimport is ..."
+const doc = "gopher is ..."
 
 // Analyzer is ...
 var Analyzer = &analysis.Analyzer{
-	Name: "dupimport",
+	Name: "gopher",
 	Doc:  doc,
 	Run:  run,
 	Requires: []*analysis.Analyzer{

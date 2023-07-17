@@ -1,4 +1,4 @@
-module github.com/kyu08/dupimport
+module github.com/kyu08/gopher
 
 go 1.19
 
