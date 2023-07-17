@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/dupimport"
+	"github.com/kyu08/dupimport"
 	"golang.org/x/tools/go/analysis/unitchecker"
 )
 

@@ -3,8 +3,8 @@ package dupimport_test
 import (
 	"testing"
 
-	"github.com/dupimport"
 	"github.com/gostaticanalysis/testutil"
+	"github.com/kyu08/dupimport"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 
